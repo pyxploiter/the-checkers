@@ -1,0 +1,24 @@
+void position(int, int);
+void welcome();
+int menu();
+int instruction();
+void title();
+bool moveUp(int,int,int,int,int);
+bool moveDown(int,int,int,int,int );
+bool backFor(int,int,int,int,int);
+int toss();
+int tossSelect(void);
+int tossResult(char);
+void moveStore(int,char,int,char,int);
+void moveBox();
+void board();
+void pieces();
+void checkKing();
+int countPiecesp1();
+int countPiecesp2();
+void playerTurn(int);
+void win(int);
+int convert(char);
+bool timer(int);
+bool noMoves(int);
+
